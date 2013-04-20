@@ -12,8 +12,18 @@ public class Funcionario extends Pessoa {
 
     private String login;
     private String senha;
+    private String privilegios;
+    
+    
+    public String getPrivilegios() {
+		return privilegios;
+	}
 
-    public Funcionario(){
+	public void setPrivilegios(String privilegios) {
+		this.privilegios = privilegios;
+	}
+
+	public Funcionario(){
     	
     	this.setStatus(true);
     	

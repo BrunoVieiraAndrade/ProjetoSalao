@@ -12,16 +12,29 @@ public class Cliente extends Pessoa{
     
     private Double saldo;
     private boolean pendente;
+    private Integer codigoDependente;
 
     public Cliente(){
         
+    	this.codigoDependente = -1;
         this.saldo = 0.0;
         this.pendente = false;
         this.setStatus(true);
         
     }
     
-    public Double getSaldo() {
+    
+    public Integer getCodigoDependente() {
+		return codigoDependente;
+	}
+
+
+	public void setCodigoDependente(Integer codigoDependente) {
+		this.codigoDependente = codigoDependente;
+	}
+
+
+	public Double getSaldo() {
         return saldo;
     }
 

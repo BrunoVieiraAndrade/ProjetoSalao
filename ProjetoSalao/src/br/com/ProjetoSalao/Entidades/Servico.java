@@ -13,8 +13,17 @@ public class Servico {
     private Integer codigo;
     private String nome;
     private Double valor;
+	private Double porcentagemComissao;
     private char tipo;
     private Boolean situacao;
+    
+    public Double getValorComissao() {
+		return porcentagemComissao;
+	}
+
+	public void setValorComissao(Double valorComissao) {
+		this.porcentagemComissao = valorComissao;
+	}
 
     public Servico(){
         this.valor = 0.0;
