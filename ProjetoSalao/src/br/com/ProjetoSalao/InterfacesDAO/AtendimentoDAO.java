@@ -1,6 +1,6 @@
 package br.com.ProjetoSalao.InterfacesDAO;
 
-import java.util.List;
+import java.util.HashMap;
 
 import br.com.ProjetoSalao.Entidades.Atendimento;
 import br.com.ProjetoSalao.Exceptions.ObjetoNaoEncontrado;
@@ -14,7 +14,7 @@ public interface AtendimentoDAO {
 	public Atendimento buscarAtendimentoPorCodigo(Integer codigo) throws ObjetoNaoEncontrado;
 	public void excluir(Atendimento atendimento);
 	public void editar(Atendimento atendimento);
-	public List<Atendimento> getListaAtendimentos(boolean Status);
+	public HashMap<Integer,Atendimento> getListaAtendimentos(boolean Status);
     public void desfazerExclusao(Integer codigo);
     public void inicializarLista(Boolean status,FuncionarioRN funcionarioRN,ClienteRN clienteRN,ServicoRN servicoRN);
 	

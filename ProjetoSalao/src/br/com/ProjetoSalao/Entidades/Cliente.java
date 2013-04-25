@@ -19,8 +19,7 @@ public class Cliente extends Pessoa{
     	this.codigoDependente = -1;
         this.saldo = 0.0;
         this.pendente = false;
-        this.setStatus(true);
-        
+
     }
     
     

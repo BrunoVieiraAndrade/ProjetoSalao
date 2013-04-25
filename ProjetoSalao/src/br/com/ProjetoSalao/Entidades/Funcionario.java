@@ -25,7 +25,6 @@ public class Funcionario extends Pessoa {
 
 	public Funcionario(){
     	
-    	this.setStatus(true);
     	
     }
     

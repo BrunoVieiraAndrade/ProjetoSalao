@@ -22,7 +22,6 @@ public abstract class Pessoa {
     private String telefone2;
     private String telefone3;
     private String sexo;
-    private Boolean status;
 
     public String getNome() {
         return nome;
@@ -118,14 +117,6 @@ public abstract class Pessoa {
 
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
-    }
-
-    public Boolean getStatus() {
-        return status;
-    }
-
-    public void setStatus(Boolean status) {
-        this.status = status;
     }
     
 }

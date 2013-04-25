@@ -4,11 +4,12 @@
  */
 package br.com.ProjetoSalao.RegrasNegocio;
 
+import java.util.List;
+
 import br.com.ProjetoSalao.Entidades.Pagamento;
 import br.com.ProjetoSalao.Exceptions.ObjetoNaoEncontrado;
 import br.com.ProjetoSalao.InterfacesDAO.PagamentoDAO;
 import br.com.ProjetoSalao.PersistenciaDAO.PagamentoPersistencia;
-import java.util.List;
 
 /**
  *

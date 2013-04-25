@@ -5,6 +5,7 @@
 package br.com.ProjetoSalao.RegrasNegocio;
 
 import java.util.List;
+
 import br.com.ProjetoSalao.Entidades.Funcionario;
 import br.com.ProjetoSalao.Exceptions.ObjetoNaoEncontrado;
 import br.com.ProjetoSalao.Exceptions.SenhaException;

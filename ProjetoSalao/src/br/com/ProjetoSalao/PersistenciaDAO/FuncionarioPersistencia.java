@@ -60,7 +60,6 @@ public class FuncionarioPersistencia implements FuncionarioDAO{
 		funcionario.setEmail("Kaio cristian costa silva");
 		funcionario.setRg("5019294");
 		funcionario.setSexo("M");
-		funcionario.setStatus(true);
 		funcionario.setTelefone1("32874164");
 		
 		return funcionario;

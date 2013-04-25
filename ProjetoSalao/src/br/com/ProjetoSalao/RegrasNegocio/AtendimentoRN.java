@@ -4,13 +4,13 @@
  */
 package br.com.ProjetoSalao.RegrasNegocio;
 
+import java.util.Date;
+import java.util.HashMap;
+
 import br.com.ProjetoSalao.Entidades.Atendimento;
 import br.com.ProjetoSalao.Exceptions.ObjetoNaoEncontrado;
 import br.com.ProjetoSalao.InterfacesDAO.AtendimentoDAO;
 import br.com.ProjetoSalao.PersistenciaDAO.AtendimentoPersistencia;
-
-import java.util.Date;
-import java.util.List;
 
 /**
  *
@@ -44,7 +44,7 @@ public class AtendimentoRN {
         
     }
     
-    public List<Atendimento> getListaAtendimentos(boolean status,Date date){
+    public HashMap<Integer,Atendimento> getListaAtendimentos(boolean status,Date date){
         
         return atendimentoPersistencia.getListaAtendimentos(status);
         
